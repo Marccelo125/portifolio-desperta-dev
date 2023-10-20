@@ -1,0 +1,215 @@
+:root {
+    --primary-color:#1360b8;
+    --second-color:#dfebf8;
+    --third-color:#247bdf;
+    --fourty-color:#50a1ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto-aside {
+    margin-top: 20%;
+
+    border: 8px var(--third-color) solid;
+    border-radius: 50%;
+    
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-color: var(--second-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.coluna-lateral {
+    height: 102vh;
+    width: 40vh;
+    background: var(--primary-color);
+    color: black;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding-top: 10%;
+
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.botoes-navegar a {
+    margin-bottom: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.botoes-navegar li > a:hover {
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    padding: 5px 15px 5px 15px;
+    
+    border: 0px solid #dfebf8;
+    border-radius: 10px;
+    background-color: var(--third-color);
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+hr {
+    margin: 10px 0px 10px 0px;
+}
+  
+#nome-main {
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 500%;
+}
+
+.endereco-contato p {
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.descricao {
+    margin-top: 7%;
+    padding-left: 5px;
+}
+
+.descricao p {
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+}
+
+.growdev-link {
+    color: steelblue;
+}
+
+.sicredi-link {
+    color: green;
+}
+
+#redes-sociais img {
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 20%;
+    width: 45px;
+    height: 45px;
+}
+
+/* Conhecimentos */
+#nome-conhecimentos {
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 500%;
+}
+
+#desperta-dev {
+    color: green;
+}
+
+.texto-descritivo {
+    margin-left: 5px;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.conhecimentos-hardskills {
+    display: inline-flex;
+    margin: 10px 0 10px 0;
+}
+
+.conhecimentos-hardskills article {
+    padding-left: 10px;
+}
+
+.conhecimentos-softskills {
+    font-size: 1.3rem;
+    color: rgb(36, 36, 36);
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+}
+
+.lista-softskills {
+    font-style: var(--second-color);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* Objetivos */
+#nome-objetivos {
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 500%;
+}
+
+.texto-objetivos-profissionais {
+    font-size: 1.3rem;
+    color: rgb(36, 36, 36);
+    margin: 10px 0 10px 10px;
+}
+
+.descricao-objetivos {
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lista-objetivos-profissionais {border-radius: 15px;
+    border-width: 100vh;
+    background-color: var(--fourty-color);
+
+    font-style: var(--second-color);
+    padding: 10px 5px 5px 35px;
+    max-width: 70vh;
+}
+
+.lista-objetivos-profissionais li {
+    font-size: 1.4rem;
+    list-style: disc;
+    color: rgb(255, 255, 255);
+}
+
+.lista-objetivos-pessoais {
+    border-radius: 15px;
+    border-width: 100vh;
+    background-color: var(--fourty-color);
+
+    font-style: var(--second-color);
+    padding: 10px 5px 5px 35px;
+}
+
+.lista-objetivos-pessoais {
+    font-size: 1.4rem;
+    list-style: disc;
+    color: rgb(255, 255, 255);
+    max-width: 70vh;
+}
+
+.texto-objetivos-pessoais {
+    font-size: 1.3rem;
+    color: rgb(36, 36, 36);
+    margin: 10px 0 10px 10px;
+}
